@@ -6,7 +6,7 @@ handle:
 email: xinyili@gwu.edu
 twitter:
 github:
-scholar: https://scholar.google.com/citations?user=pUOWvRMAAAAJ&hl=en
+scholar: pUOWvRMAAAAJ&hl=en
 linkedin: xinyili-xl
 photo: xinyili.jpg
 ucsf: 
