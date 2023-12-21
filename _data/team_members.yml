@@ -34,6 +34,12 @@
   url: jennykim
   group: 1
 
+- name: Xinyi Li
+  photo: xinyili.png
+  info: PhD Student
+  url: xinyili
+  group: 1
+
 - name: Xiaoyan Hu
   photo: xiaoyanhu.jpeg
   info: Senior Research Associate, Data Management
@@ -45,7 +51,6 @@
   info: Senior Research Associate, Data Management
   url: stacieloisate
   group: 2
-
 
 - name: Victoria Reynolds
   photo: victoriareynolds.jpeg

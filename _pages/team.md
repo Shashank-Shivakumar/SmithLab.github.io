@@ -8,10 +8,10 @@ permalink: /team/
 
 # Team Members
 
-
 ---
 
-## Principal Investigator
+## Leadership
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -45,6 +45,7 @@ permalink: /team/
 ---
 
 ## Trainees
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -78,6 +79,7 @@ permalink: /team/
 ---
 
 ## Research Staff
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -110,7 +112,9 @@ permalink: /team/
 
 ---
 <!--
+
 ## PsychCore Genomics Core
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -142,8 +146,8 @@ permalink: /team/
 {% endif %}
 ---
 
-
 ## Visiting Scholars
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -184,7 +188,7 @@ permalink: /team/
 
 <i class="alumni1">{{ member.name }}</i><br>
 <i class="alumni2">{{ member.info }} ({{ member.year }}</i>) {% if member.current %} 
-<i class="alumni2">Current: {{ member.current }}</i> {% if member.extlink %} <a class="alumni2" style="padding-left: 0px;" href="{{ member.extlink }}">(Link)</a>
+<i class="alumni2">Current: {{ member.current }}</i> {% if member.extlink %} <a class="alumni2" style="padding-left: 0px; " href="{{ member.extlink }}">(Link)</a>
 {% endif %}
 {% endif %}
 
@@ -194,13 +198,8 @@ permalink: /team/
 ---
 
 <!--
+
 ## Administrative Support
-Please contact our lab manager, <a href="mailto:Clif.Duhn@ucsf.edu">Clif Duhn</a>.
+
+Please contact our lab manager, <a href="mailto: Clif. Duhn@ucsf.edu">Clif Duhn</a>.
 -->
-
-
-
-
-
-
-
