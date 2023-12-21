@@ -11,19 +11,34 @@ permalink: /team/
 
 ---
 
-## Leadership
+## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-{% if member.group == 0 and number_printed < 2 %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if member.group == 0 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left; border-radus: 50%" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
+
 {% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 {% endif %}
 {% endfor %}
-{% if number_printed > 0 %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
 </div>
 {% endif %}
 
@@ -31,29 +46,32 @@ permalink: /team/
 
 ## Trainees
 {% assign number_printed = 0 %}
-{% assign skip_count = 2 %}
 {% for member in site.data.team_members %}
-{% if member.group == 1 %}
-{% if skip_count > 0 %}
-{% assign skip_count = skip_count | minus: 1 %}
-{% elsif number_printed < 6 %}
+
 {% assign even_odd = number_printed | modulo: 2 %}
+{% if member.group == 1 %}
+
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
+
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left; border-radus: 50%" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
+
 {% assign number_printed = number_printed | plus: 1 %}
+
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-{% endif %}
+
 {% endif %}
 {% endfor %}
-{% if number_printed % 2 == 1 %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
 </div>
 {% endif %}
 
@@ -62,23 +80,31 @@ permalink: /team/
 ## Research Staff
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-{% if member.group == 2 %}
+
 {% assign even_odd = number_printed | modulo: 2 %}
+{% if member.group == 2 %}
+
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
+
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left; border-radus: 50%"/>
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
+
 {% assign number_printed = number_printed | plus: 1 %}
+
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
 {% endif %}
 {% endfor %}
-{% if number_printed % 2 == 1 %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
 </div>
 {% endif %}
 
@@ -171,7 +197,6 @@ permalink: /team/
 ## Administrative Support
 Please contact our lab manager, <a href="mailto:Clif.Duhn@ucsf.edu">Clif Duhn</a>.
 -->
-
 
 
 
