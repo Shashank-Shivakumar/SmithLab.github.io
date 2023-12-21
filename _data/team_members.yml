@@ -1,14 +1,14 @@
 - name: Emily R. Smith
   photo: emilysmith.jpg
-  info: Assistant Professor
+  info: Associate Professor
   url: emilysmith
   group: 0
 
 - name: Fouzia Farooq
   photo: fouziafarooq.jpg
-  info: Postdoctoral Scholar
+  info: Assistant Professor
   url: fouziafarooq
-  group: 1
+  group: 0
 
 - name: Wen-chien Yang
   photo: wenchienyang.jpg
@@ -33,14 +33,6 @@
   info: PhD Student
   url: jennykim
   group: 1
-
-- name: Eliza Fishman
-  photo: elizafishman.png
-  info: MPH Student
-  url: elizafishman
-  group: 1
-
-
 
 - name: Xiaoyan Hu
   photo: xiaoyanhu.jpeg
