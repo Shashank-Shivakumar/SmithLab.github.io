@@ -19,6 +19,6 @@ Sasha Baumann is a research associate with interests in maternal and newborn hea
 
 ### Education
 
-MSc Public Health for Development, London School of Hygiene and Tropical Medicine [London, UK]
+MSc Public Health for Development, London School of Hygiene and Tropical Medicine
 
-BA Psychology and Spanish, Grinnell College [Grinnell, Iowa, US]
+BA Psychology and Spanish, Grinnell College
