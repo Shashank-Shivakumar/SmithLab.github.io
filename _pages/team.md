@@ -14,24 +14,16 @@ permalink: /team/
 ## Leadership
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 0 %}
-{% if even_odd == 0 or number_printed == 1 %}
-<div class="row">
-{% endif %}
+{% if member.group == 0 and number_printed < 2 %}
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
-{% if even_odd == 1 or number_printed == 2 %}
-</div>
-{% endif %}
 {% endif %}
 {% endfor %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+{% if number_printed > 0 %}
 </div>
 {% endif %}
 
@@ -41,11 +33,11 @@ permalink: /team/
 {% assign number_printed = 0 %}
 {% assign skip_count = 2 %}
 {% for member in site.data.team_members %}
-{% assign even_odd = number_printed | modulo: 2 %}
 {% if member.group == 1 %}
 {% if skip_count > 0 %}
 {% assign skip_count = skip_count | minus: 1 %}
-{% else %}
+{% elsif number_printed < 6 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
@@ -61,8 +53,7 @@ permalink: /team/
 {% endif %}
 {% endif %}
 {% endfor %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+{% if number_printed % 2 == 1 %}
 </div>
 {% endif %}
 
@@ -71,31 +62,23 @@ permalink: /team/
 ## Research Staff
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
 {% if member.group == 2 %}
-
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
-
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
-
 {% assign number_printed = number_printed | plus: 1 %}
-
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
 {% endif %}
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+{% if number_printed % 2 == 1 %}
 </div>
 {% endif %}
 
