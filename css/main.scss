@@ -168,3 +168,27 @@ color:black;
 .clear {
   clear: both;
 }
+
+.mt60 {
+  margin-top: 30px;
+}
+.footernav li {
+  margin-right: 15px;
+}
+.list-inline-item {
+  display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.off {
+  color: inherit;
+}
