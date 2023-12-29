@@ -79,11 +79,11 @@
   url: jaimemarquis
   group: 2
 
-- name: Clara Parsons
-  photo: claraparsons.jpeg
-  info: Senior Research Assistant
-  url: claraparsons
-  group: 2
+# - name: Clara Parsons
+#   photo: claraparsons.jpeg
+#   info: Senior Research Assistant
+#   url: claraparsons
+#   group: 2
 
 - name: Molayo Ifebajo
   photo: molayoifebajo.jpg
