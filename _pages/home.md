@@ -1,6 +1,6 @@
 ---
 title: "Smith Lab - Home"
-layout: homelay
+layout: false
 excerpt: "Smith Lab at GWSPH."
 sitemap: false
 permalink: /
