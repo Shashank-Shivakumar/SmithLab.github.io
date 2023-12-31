@@ -184,7 +184,7 @@ permalink: /
 </section>			
 </div>
 
-<footer class="bx footer">
+<!-- <footer class="bx footer">
 <div class="container">
 <div class="bx txt-a-c cta-wrapper line-cta">
 <a href="#" class="btn btn-primary footer-nav">Join Our Group</a>
@@ -196,6 +196,6 @@ permalink: /
 
 
 <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script> -->
 </body>
 </html>
