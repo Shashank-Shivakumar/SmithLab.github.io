@@ -17,7 +17,7 @@ permalink: /
 </head>
 <body>
 
-<header class="navbar" role="navigation">
+<!-- <header class="navbar" role="navigation">
 <div class="container">
 <div class="navbar-header s-lab-header">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -38,7 +38,7 @@ permalink: /
 <li><a href="/SmithLab.github.io/publications">Publications</a></li>
 <li><a href="/SmithLab.github.io/funders_partners">Get in Touch</a></li>
 <li><a href="/SmithLab.github.io/recruitment">Join Us</a></li>
-<li><a href="/SmithLab.github.io/code"><i class="fa fa-github" style="font-size:24px"></i></a></li>
+<li><a href="/SmithLab.github.io/code"><i class="fa fa-github" style="font-size:24px"></i></a></li> -->
 
 <!-- <li><a href="/SmithLab.github.io/data">Data</a></li> -->
 <!-- <li><a href="/SmithLab.github.io/contact">Contact</a></li> -->
