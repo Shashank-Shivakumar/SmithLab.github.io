@@ -5,47 +5,10 @@ excerpt: "Smith Lab at GWSPH."
 sitemap: false
 permalink: /
 ---
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Smith Lab - Home</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/smithlab.css">
-</head>
+s
 <body>
 
-<!-- <header class="navbar" role="navigation">
-<div class="container">
-<div class="navbar-header s-lab-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
 
-<a class="navbar-brand" href="/SmithLab.github.io/">Smith Lab | GW School of Public Health</a>
-</div>
-
-<div class="collapse navbar-collapse" id="navbar-collapse-1">
-<ul class="nav navbar-nav navbar-right">
-<li><a href="/SmithLab.github.io/" class="active">Home</a></li>
-<li><a href="/SmithLab.github.io/team">Our Team</a></li>
-<li><a href="/SmithLab.github.io/research">Research</a></li>
-<li><a href="/SmithLab.github.io/publications">Publications</a></li>
-<li><a href="/SmithLab.github.io/funders_partners">Get in Touch</a></li>
-<li><a href="/SmithLab.github.io/recruitment">Join Us</a></li>
-<li><a href="/SmithLab.github.io/code"><i class="fa fa-github" style="font-size:24px"></i></a></li> -->
-
-<!-- <li><a href="/SmithLab.github.io/data">Data</a></li> -->
-<!-- <li><a href="/SmithLab.github.io/contact">Contact</a></li> -->
-<!-- </ul>
-</div>
-</div>
-</header> -->
 <div class="container-fluid top-area">
 <div class="container">
 <div class="hero-banner">
