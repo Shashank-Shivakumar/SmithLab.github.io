@@ -5,7 +5,7 @@ excerpt: "Smith Lab at GWSPH."
 sitemap: false
 permalink: /
 ---
-<!-- <!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -45,7 +45,7 @@ permalink: /
 <!-- </ul>
 </div>
 </div>
-</header> --> 
+</header> -->
 <div class="container-fluid top-area">
 <div class="container">
 <div class="hero-banner">
@@ -196,7 +196,6 @@ permalink: /
 
 
 <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js">
-</script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+</body>
 </html>
--->
