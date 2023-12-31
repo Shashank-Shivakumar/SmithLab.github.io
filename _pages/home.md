@@ -42,10 +42,10 @@ permalink: /
 
 <!-- <li><a href="/SmithLab.github.io/data">Data</a></li> -->
 <!-- <li><a href="/SmithLab.github.io/contact">Contact</a></li> -->
-</ul>
+<!-- </ul>
 </div>
 </div>
-</header>
+</header> -->
 <div class="container-fluid top-area">
 <div class="container">
 <div class="hero-banner">
