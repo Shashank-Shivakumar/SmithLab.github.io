@@ -39,7 +39,7 @@ Leadership section starts here
 {% endif %}
 
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
 </div>
 <div class="info">
 <h4>{{ member.name }}</h4>
@@ -75,7 +75,7 @@ Leadership section starts here
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left; border-radus: 50%" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left; border-radus: 50%" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
@@ -161,7 +161,7 @@ Leadership section starts here
 <div class="bx leadership-team">
 <div class="bx team-main-bx">
 <div class="media">
-<img src="images/emilysmith.jpg" width="480" height="480" alt="Emily R Smith">
+<img src="images/teampic/emilysmith.jpg" width="480" height="480" alt="Emily R Smith">
 </div>
 <div class="info">
 <h4>Emily R. Smith</h4>
@@ -171,7 +171,7 @@ Leadership section starts here
 
 <div class="bx team-main-bx">
 <div class="media">
-<img src="images/fouziafarooq.jpg" width="480" height="480" alt="Fouzia Farooq">
+<img src="images/teampic/fouziafarooq.jpg" width="480" height="480" alt="Fouzia Farooq">
 </div>
 <div class="info">
 <h4>Fouzia Farooq</h4>
@@ -190,7 +190,7 @@ Leadership section starts here
 <div class="bx recent-updates">
 <div class="bx trainee">
 <div class="media">
-<img src="images/wenchienyang.jpg" width="320" height="320" alt="Wen-chien Yang">
+<img src="images/teampic/wenchienyang.jpg" width="320" height="320" alt="Wen-chien Yang">
 </div>
 <div class="info">
 <h4>Wen-chien Yang</h4>
@@ -200,7 +200,7 @@ Leadership section starts here
 
 <div class="bx trainee">
 <div class="media">
-<img src="images/ramaachitale.jpg" width="320" height="320" alt="Ramaa Chitale">
+<img src="images/teampic/ramaachitale.jpg" width="320" height="320" alt="Ramaa Chitale">
 </div>
 <div class="info">
 <h4>Ramaa Chitale</h4>
@@ -210,7 +210,7 @@ Leadership section starts here
 
 <div class="bx trainee">
 <div class="media">
-<img src="images/megantalej.jpg" width="320" height="320" alt="Megan Talej">
+<img src="images/teampic/megantalej.jpg" width="320" height="320" alt="Megan Talej">
 </div>
 <div class="info">
 <h4>Megan Talej</h4>
@@ -220,7 +220,7 @@ Leadership section starts here
 
 <div class="bx trainee">
 <div class="media">
-<img src="images/jennykim.jpg" width="320" height="320" alt="Jenny Kim">
+<img src="images/teampic/jennykim.jpg" width="320" height="320" alt="Jenny Kim">
 </div>
 <div class="info">
 <h4>Jenny Kim</h4>
@@ -229,7 +229,7 @@ Leadership section starts here
 </div>
 <div class="bx trainee">
 <div class="media">
-<img src="images/xinyili.jpg" width="320" height="320" alt="Xinyi Li">
+<img src="images/teampic/xinyili.jpg" width="320" height="320" alt="Xinyi Li">
 </div>
 <div class="info">
 <h4>Xinyi Li</h4>
@@ -246,7 +246,7 @@ Leadership section starts here
 <div class="bx recent-updates">
 <div class="bx trainee">
 <div class="media">
-<img src="images/xiaoyan-hu.jpg" width="320" height="320" alt="Xiaoyan Hu">
+<img src="images/teampic/xiaoyan-hu.jpg" width="320" height="320" alt="Xiaoyan Hu">
 </div>
 <div class="info">
 <h4>Xiaoyan Hu</h4>
@@ -256,7 +256,7 @@ Leadership section starts here
 
 <div class="bx trainee">
 <div class="media">
-<img src="images/stacie-loisate.jpg" width="320" height="320" alt="Stacie Loisate">
+<img src="images/teampic/stacie-loisate.jpg" width="320" height="320" alt="Stacie Loisate">
 </div>
 <div class="info">
 <h4>Stacie Loisate</h4>
@@ -266,7 +266,7 @@ Leadership section starts here
 
 <div class="bx trainee">
 <div class="media">
-<img src="images/victoria-reynolds.jpg" width="320" height="320" alt="Victoria Reynolds">
+<img src="images/teampic/victoria-reynolds.jpg" width="320" height="320" alt="Victoria Reynolds">
 </div>
 <div class="info">
 <h4>Victoria Reynolds</h4>
@@ -276,7 +276,7 @@ Leadership section starts here
 
 <div class="bx trainee">
 <div class="media">
-<img src="images/erinoakley.jpg" width="320" height="320" alt="Erin Oakley">
+<img src="images/teampic/erinoakley.jpg" width="320" height="320" alt="Erin Oakley">
 </div>
 <div class="info">
 <h4>Erin Oakley</h4>
@@ -285,7 +285,7 @@ Leadership section starts here
 </div>
 <div class="bx trainee">
 <div class="media">
-<img src="images/sasha-baumann.jpg" width="320" height="320" alt="Sasha Baumann">
+<img src="images/teampic/sasha-baumann.jpg" width="320" height="320" alt="Sasha Baumann">
 </div>
 <div class="info">
 <h4>Sasha Baumann</h4>
@@ -294,7 +294,7 @@ Leadership section starts here
 </div>
 <div class="bx trainee">
 <div class="media">
-<img src="images/jaimemarquis.jpg" width="320" height="320" alt="Jaime Marquis">
+<img src="images/teampic/jaimemarquis.jpg" width="320" height="320" alt="Jaime Marquis">
 </div>
 <div class="info">
 <h4>Jaime Marquis</h4>
@@ -303,7 +303,7 @@ Leadership section starts here
 </div>
 <div class="bx trainee">
 <div class="media">
-<img src="images/molayoifebajo.jpg" width="320" height="320" alt="Molayo Ifebajo">
+<img src="images/teampic/molayoifebajo.jpg" width="320" height="320" alt="Molayo Ifebajo">
 </div>
 <div class="info">
 <h4>Molayo Ifebajo</h4>
@@ -312,7 +312,7 @@ Leadership section starts here
 </div>
 <div class="bx trainee">
 <div class="media">
-<img src="images/preciouswilliams.jpg" width="320" height="320" alt="Precious Williams">
+<img src="images/teampic/preciouswilliams.jpg" width="320" height="320" alt="Precious Williams">
 </div>
 <div class="info">
 <h4>Precious Williams</h4>
