@@ -66,7 +66,7 @@ You can find our work featured on the likes of CNN, the Washington Post, and For
 <div class="bx recent-updates">
 <a href="#" class="bx recent-bx">
 <div class="media">
-<img src="images/ScienceAdvances.png" width="225" height="225" alt="Science Advances">
+<img src="images/ScienceAdvances.png" width="300" height="300" alt="Science Advances">
 </div>
 <div class="info">
 <h3 class="title">Limited data exist to inform our basic understanding of micronutrient requirements in pregnancy</h3>
