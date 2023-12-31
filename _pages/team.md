@@ -1,11 +1,12 @@
 ---
 title: "Smith Lab - Team"
-layout: gridlay
+layout: homelay
 excerpt: "Smith Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
-
+<html>
+<body>
 <div class="container-fluid our-team">
 <section class="container">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
@@ -92,4 +93,5 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %} -->
-
+</body>
+</html>
