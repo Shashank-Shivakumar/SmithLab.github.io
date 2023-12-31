@@ -1,6 +1,6 @@
 ---
 title: "Smith Lab - Team"
-layout: default
+layout: homelay
 excerpt: "Smith Lab: Team members"
 sitemap: false
 permalink: /team/
