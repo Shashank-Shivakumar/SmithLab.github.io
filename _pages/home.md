@@ -1,11 +1,51 @@
 ---
 title: "Smith Lab - Home"
-layout: default
+layout: false
 excerpt: "Smith Lab at GWSPH."
 sitemap: false
 permalink: /
 ---
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Smith Lab - Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/smithlab.css">
+</head>
+<body>
 
+<!-- <header class="navbar" role="navigation">
+<div class="container">
+<div class="navbar-header s-lab-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a class="navbar-brand" href="/SmithLab.github.io/">Smith Lab | GW School of Public Health</a>
+</div>
+
+<div class="collapse navbar-collapse" id="navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="/SmithLab.github.io/" class="active">Home</a></li>
+<li><a href="/SmithLab.github.io/team">Our Team</a></li>
+<li><a href="/SmithLab.github.io/research">Research</a></li>
+<li><a href="/SmithLab.github.io/publications">Publications</a></li>
+<li><a href="/SmithLab.github.io/funders_partners">Get in Touch</a></li>
+<li><a href="/SmithLab.github.io/recruitment">Join Us</a></li>
+<li><a href="/SmithLab.github.io/code"><i class="fa fa-github" style="font-size:24px"></i></a></li> -->
+
+<!-- <li><a href="/SmithLab.github.io/data">Data</a></li> -->
+<!-- <li><a href="/SmithLab.github.io/contact">Contact</a></li> -->
+<!-- </ul>
+</div>
+</div>
+</header> -->
 <div class="container-fluid top-area">
 <div class="container">
 <div class="hero-banner">
@@ -14,9 +54,7 @@ permalink: /
 
 <section class="container">
 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
-<p class="txt-a-c">We are a dynamic research group led by Dr. Emily R. Smith that focuses on infection and nutrition across the life course. Our goal is to generate, analyze, and translate epidemiological data to improve maternal, newborn, and child health globally. Current and past projects include randomized trials, pregnancy surveillance systems, and health service program evaluations in Tanzania, Ghana, Zambia, Kenya, Rwanda, Uganda, Bolivia, Peru, Afghanistan, India, Pakistan, and the United States.
-<br><br>At Smith Lab we partner with numerous international organizations and research institutes, including the Center for Health Research and Development, Society for Applied Studies; Christian Medical College, Vellore; Kenya Medical Research Institute; Centers for Disease Control and Prevention); University of North Carolina at Chapel Hill; Aga Khan University; Vital Trust Pakistan; Kintampo Health Research Centre; the George Washington University Biostatistics Centre; Columbia University; Mount Sinai Health System; and Harvard T.H. Chan School of Public Health. We are grateful for funding from the Bill & Melinda Gates Foundation, the World Health Organization, and Eunice Kennedy Shriver National Institute of Child Health and Human Development.
-<br><br>You can find our work featured on the likes of CNN, the Washington Post, and Fortune. See some of our recent media coverage below; see all media coverage here.</p>
+<p class="large-para txt-a-c">We are a research group led by Dr. Emily Smith that focuses on infection and nutrition across the life course. Our goal is to generate, analyze, and translate epidemiological data to improve maternal, newborn, and child health globally. Our current and past projects include randomized trials, surveillance, and health service program evaluation in Tanzania, Ghana, Zambia, Kenya, Rwanda, Uganda, Bolivia, Peru, Afghanistan, India, Pakistan, and the United States.<br><br>You can find our work featured on the likes of CNN, the Washington Post, and Fortune. See some of our recent media coverage below.</p>
 </div>
 </section>
 </div>
