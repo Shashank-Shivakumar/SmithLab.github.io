@@ -6,10 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to the Smith Lab at GWSPH
+<!-- # Welcome to the Smith Lab at GWSPH
 
-
-<!-- ![]({{ site.url }}{{ site.baseurl }}/images/homephoto.jpg){: style="width: 300px; float: left;margin-right: 20px; border: 10px"} 
+![]({{ site.url }}{{ site.baseurl }}/images/homephoto.jpg){: style="width: 300px; float: left;margin-right: 20px; border: 10px"} 
 <div style="text-align: justify">
 Welcome to the Smith Lab at the [George Washington University Milken Institute School of Public Health](https://publichealth.gwu.edu/)! 
 
