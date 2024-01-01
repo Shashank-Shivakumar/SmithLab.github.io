@@ -39,10 +39,9 @@ permalink: /team/
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
 </div>
-
+</div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% if even_odd == 1 %}
-</div>
 </div>
 {% endif %}
 {% endif %}
