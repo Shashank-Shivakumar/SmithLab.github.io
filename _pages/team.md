@@ -30,14 +30,16 @@ permalink: /team/
 {% if member.group == 0 %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
-<div class="bx team-main-bx">
+
 {% endif %}
+<div class="bx team-main-bx">
 <div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
 </div>
 <div class="info">
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
+</div>
 </div>
 {% if even_odd == 1 %}
 </div>
