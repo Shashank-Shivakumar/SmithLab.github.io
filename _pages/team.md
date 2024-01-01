@@ -18,8 +18,8 @@ permalink: /team/
 </section>
 </div>
 
-<div class="container-fluid">
 <!-- Leadership section starts here -->
+<div class="container-fluid">
 <section class="container">
 <div class="bx section-title-area">
 <h2 class="section-title">Leadership</h2>
@@ -49,14 +49,12 @@ permalink: /team/
 {% endfor %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
 {% endif %}
-</div>
 </section>
-<!-- Leadership section ends -->					
 </div>
+<!-- Leadership section ends -->					
 
-
+<!-- Trainees section starts -->					
 <section class="container">
 <div class="bx section-title-area">
 <h2 class="section-title">Trainees</h2>
@@ -67,10 +65,11 @@ permalink: /team/
 {% if member.group == 1 %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
-<div class="row">
 {% endif %}
-<div class="col-sm-6 clearfix">
+<div class="bx trainee">
+<div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
+</div>
 <div class="info">
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
@@ -84,10 +83,9 @@ permalink: /team/
 {% endfor %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
 {% endif %}
-</div>
 </section>
+<!-- Traniees section ends -->					
 
 <section class="container">
 <div class="bx section-title-area">
