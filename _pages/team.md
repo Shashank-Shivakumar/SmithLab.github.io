@@ -51,4 +51,88 @@ permalink: /team/
 {% endif %}
 </div>
 </section>
+
+<section class="container">
+<div class="bx section-title-area">
+<h2 class="section-title">Trainees</h2>
+</div>
+<div class="bx recent-updates">
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+{% if member.group == 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+<div class="col-sm-6 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
+<div class="info">
+<h4>{{ member.name }}</h4>
+<h5>{{ member.info }}</h5>
+</div>
+</div>
+{% assign number_printed = number_printed | plus: 1 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+</div>
+</section>
+
+<section class="container">
+<div class="bx section-title-area">
+<h2 class="section-title">Research Staff</h2>
+</div>
+<div class="bx recent-updates">
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+{% if member.group == 2 %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+<div class="col-sm-6 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
+<div class="info">
+<h4>{{ member.name }}</h4>
+<h5>{{ member.info }}</h5>
+</div>
+</div>
+{% assign number_printed = number_printed | plus: 1 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+</div>
+</section>
+
+<section class="container">
+<div class="bx section-title-area">
+<h2 class="section-title">Alumni</h2>
+</div>
+<div class="bx recent-updates">
+{% for member in site.data.team_members %}
+{% if member.group == 8 %}
+<div class="bx alumni">
+<h4>{{ member.name }}</h4>
+<h5>{{ member.info }}{% if member.year %} ({{ member.year }}){% endif %}{% if member.current %}<br>Current: {{ member.current }}{% endif %}</h5>
+{% if member.extlink %}
+<a class="alumni2" style="padding-left: 0px;" href="{{ member.extlink }}">(Link)</a>
+{% endif %}
+</div>
+{% endif %}
+{% endfor %}
+</div>
+</section>
+
 </div>
