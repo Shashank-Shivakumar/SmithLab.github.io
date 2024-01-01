@@ -18,8 +18,8 @@ permalink: /team/
 </section>
 </div>
 
-<!--Leadership section starts here-->
-<div class="container-fluid">		
+<div class="container-fluid">
+<!-- Leadership section starts here -->
 <section class="container">
 <div class="bx section-title-area">
 <h2 class="section-title">Leadership</h2>
@@ -33,25 +33,27 @@ permalink: /team/
 <div class="bx team-main-bx">
 {% endif %}
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="480" height="480" alt="{{ member.name }}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
 </div>
 <div class="info">
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
 {% if even_odd == 1 %}
 </div>
-</div>
 {% endif %}
+{% assign number_printed = number_printed | plus: 1 %}
 {% endif %}
 {% endfor %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</section>
+</div>
 {% endif %}
 </div>
+</section>
+<!-- Leadership section ends -->					
+</div>
+
 
 <section class="container">
 <div class="bx section-title-area">
