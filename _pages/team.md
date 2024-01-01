@@ -30,27 +30,28 @@ permalink: /team/
 {% if member.group == 0 %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
-<div class="row">
+<div class="bx team-main-bx">
 {% endif %}
-<div class="col-sm-6 clearfix">
+<div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="480" height="480" alt="{{ member.name }}">
+</div>
 <div class="info">
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
 </div>
-</div>
+
 {% assign number_printed = number_printed | plus: 1 %}
 {% if even_odd == 1 %}
+</div>
 </div>
 {% endif %}
 {% endif %}
 {% endfor %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
+</section>
 {% endif %}
 </div>
-</section>
 
 <section class="container">
 <div class="bx section-title-area">
