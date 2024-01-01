@@ -5,8 +5,7 @@ excerpt: "Smith Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
-<html>
-<body>
+
 <div class="container-fluid our-team">
 <section class="container">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
@@ -39,7 +38,7 @@ Leadership section starts here
 {% endif %}
 
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
 </div>
 <div class="info">
 <h4>{{ member.name }}</h4>
@@ -62,8 +61,7 @@ Leadership section starts here
 
 </section>
 </div>
-</body>
-</html>
+
 <!-- Leadership section ends
 
 <!-- {% assign number_printed = 0 %}
