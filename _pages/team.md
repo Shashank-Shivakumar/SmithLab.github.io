@@ -27,15 +27,15 @@ Leadership section starts here
 
 <div class="bx leadership-team">
 
-{% assign number_printed = 0 %}
+<!-- {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if member.group == 0 %}
 
-{% if even_odd == 0 %}
+{% if even_odd == 0 %} -->
 <div class="bx team-main-bx">
-{% endif %}
+<!-- {% endif %} -->
 
 <div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
@@ -45,19 +45,19 @@ Leadership section starts here
 <h5>{{ member.info }}</h5>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
+<!-- {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
+{% if even_odd == 1 %} -->
 </div>
-{% endif %}
+<!-- {% endif %}
 
-{% endif %}
+<!-- {% endif %}
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+{% if even_odd == 1 %} -->
 </div>
-{% endif %}
+<!-- {% endif %} -->
 
 </section>
 </div>
