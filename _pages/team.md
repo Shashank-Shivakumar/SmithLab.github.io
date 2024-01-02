@@ -84,7 +84,10 @@ permalink: /team/
 {% if even_odd == 1 %}
 {% endif %}
 </section>
+
 <!-- Traniees section ends -->					
+
+<!-- Research Staff section starts -->					
 
 <section class="container">
 <div class="bx section-title-area">
@@ -96,10 +99,11 @@ permalink: /team/
 {% if member.group == 2 %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
-<div class="row">
 {% endif %}
-<div class="col-sm-6 clearfix">
+<div class="bx trainee">
+<div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
+</div>
 <div class="info">
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
@@ -113,9 +117,7 @@ permalink: /team/
 {% endfor %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
 {% endif %}
-</div>
 </section>
 
 <section class="container">
