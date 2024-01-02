@@ -29,7 +29,7 @@
   group: 1
 
 - name: Jenny Kim
-  photo: jennykim.png
+  photo: jennykim.jpg
   info: PhD Student
   url: jennykim
   group: 1
@@ -41,13 +41,13 @@
   group: 1
 
 - name: Xiaoyan Hu
-  photo: xiaoyanhu.jpeg
+  photo: xiaoyan-hu.jpg
   info: Senior Research Associate, Data Management
   url: xiaoyanhu
   group: 2
 
 - name: Stacie Loisate
-  photo: stacieloisate.jpeg
+  photo: stacie-loisate.jpg
   info: Senior Research Associate, Data Management
   url: stacieloisate
   group: 2
