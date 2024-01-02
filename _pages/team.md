@@ -120,4 +120,3 @@ permalink: /team/
 {% endfor %}
 </div>
 </section>
-
