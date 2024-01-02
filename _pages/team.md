@@ -33,15 +33,15 @@ permalink: /team/
 
 {% endif %}
 <a href="{{ member.url }}" class="off">
-<div class="bx team-main-bx">
-<div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
-</div>
-<div class="info">
-<h4>{{ member.name }}</h4>
-<h5>{{ member.info }}</h5>
-</div>
-</div>
+  <div class="bx team-main-bx">
+  <div class="media">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
+  </div>
+  <div class="info">
+  <h4>{{ member.name }}</h4>
+  <h5>{{ member.info }}</h5>
+  </div>
+  </div>
 </a>
 
 {% if even_odd == 1 %}
