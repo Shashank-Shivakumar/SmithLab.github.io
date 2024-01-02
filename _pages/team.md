@@ -32,17 +32,15 @@ permalink: /team/
 {% if even_odd == 0 %}
 
 {% endif %}
-<a href="{{ member.url }}" class="off">
-  <div class="bx team-main-bx">
-  <div class="media">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
-  </div>
-  <div class="info">
-  <h4>{{ member.name }}</h4>
-  <h5>{{ member.info }}</h5>
-  </div>
-  </div>
-</a>
+<div class="bx team-main-bx">
+<div class="media">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
+</div>
+<div class="info">
+<h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+<h5>{{ member.info }}</h5>
+</div>
+</div>
 
 {% if even_odd == 1 %}
 </div>
@@ -70,7 +68,7 @@ permalink: /team/
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
 </div>
 <div class="info">
-<h4>{{ member.name }}</h4>
+<h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
 <h5>{{ member.info }}</h5>
 </div>
 </div>
@@ -96,7 +94,7 @@ permalink: /team/
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
 </div>
 <div class="info">
-<h4>{{ member.name }}</h4>
+<h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
 <h5>{{ member.info }}</h5>
 </div>
 </div>
