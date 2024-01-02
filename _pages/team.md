@@ -32,7 +32,9 @@ permalink: /team/
 {% if even_odd == 0 %}
 
 {% endif %}
-<a href="{{ member.url }}" class="bx team-main-bx">
+<a href="{{ member.url }}" class="off">
+<div class="bx team-main-bx">
+<a href="{{ member.url }}">
 <div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
 </div>
@@ -40,7 +42,9 @@ permalink: /team/
 <h4>{{ member.name }}</h4>
 <h5>{{ member.info }}</h5>
 </div>
+</div>
 </a>
+
 {% if even_odd == 1 %}
 </div>
 {% endif %}
