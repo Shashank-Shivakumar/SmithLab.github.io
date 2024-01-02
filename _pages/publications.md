@@ -29,7 +29,7 @@ permalink: /publications/
 {% assign even_odd = number_printed | modulo: 2 %}
 <a href="{{ publi.link.url }}" class="bx recent-bx">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}">
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> -->
 </div>
 <div class="info">
 <h3 class="title">{{ publi.title }}</h3>
