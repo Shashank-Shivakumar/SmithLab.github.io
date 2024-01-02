@@ -15,6 +15,10 @@ permalink: /research/
 </section>
 </div>
 
+<div class="bx section-title-area">
+<h2 class="section-title">Current Projects</h2>
+</div>
+
 <section class="container">
 <div class="article-list">
 <div class="bx article">
