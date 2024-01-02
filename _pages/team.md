@@ -60,12 +60,8 @@ permalink: /team/
 <h2 class="section-title">Trainees</h2>
 </div>
 <div class="bx recent-updates">
-{% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 {% if member.group == 1 %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 %}
-{% endif %}
 <div class="bx trainee">
 <div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="320" height="320" alt="{{ member.name }}">
@@ -75,16 +71,11 @@ permalink: /team/
 <h5>{{ member.info }}</h5>
 </div>
 </div>
-{% assign number_printed = number_printed | plus: 1 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 {% endif %}
 {% endfor %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-{% endif %}
+</div>
 </section>
+
 
 <!-- Traniees section ends -->					
 
