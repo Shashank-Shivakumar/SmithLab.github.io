@@ -34,7 +34,6 @@ permalink: /team/
 {% endif %}
 <a href="{{ member.url }}" class="off">
 <div class="bx team-main-bx">
-<a href="{{ member.url }}">
 <div class="media">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="480" height="480" alt="{{ member.name }}">
 </div>
