@@ -10,7 +10,7 @@ permalink: /publications/
 <section class="container">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
 <h1 class="w-txt">Publications</h1>
-<p class="a7-w-txt"><p class="a7-w-txt">Short description about the publications goes here and here also, short description about the research team goes here and here also.</p></p>
+<p class="a7-w-txt">Short description about the publications goes here and here also, short description about the research team goes here and here also.</p>
 </div>
 </section>
 </div>
@@ -22,7 +22,6 @@ permalink: /publications/
 <h2 class="section-title">Featured</h2>
 </div>
 <div class="bx recent-updates-list">
-{% assign printed = permalink %}
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
