@@ -1,6 +1,6 @@
 ---
 title: "Smith Lab - Publications"
-layout: gridlay
+layout: homelay
 excerpt: "Smith Lab -- Publications."
 sitemap: false
 permalink: /publications/
@@ -22,6 +22,7 @@ permalink: /publications/
 <h2 class="section-title">Featured</h2>
 </div>
 <div class="bx recent-updates-list">
+{% assign printed = permalink %}
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
