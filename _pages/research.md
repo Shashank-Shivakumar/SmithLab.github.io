@@ -16,7 +16,7 @@ permalink: /research/
 </div>
 
 <section class="container">
-<h2 class="section-title" style="margin-bottom:20px;margin-top:0px">Current Projects</h2>
+<h2 class="section-title" style="margin-bottom:30px;margin-top:0px">Current Projects</h2>
 <div class="article-list">
 
 <div class="bx article">
@@ -62,7 +62,7 @@ Dr. Smith is further evaluating optimal nutrition during pregnancy through the M
 </section>
 
 <section class="container">
-<h2 class="section-title" style="margin-bottom:20px;margin-top:0px">Previous Projects</h2>
+<h2 class="section-title" style="margin-bottom:30px;margin-top:-40px">Previous Projects</h2>
 <div class="article-list">
 
 <div class="bx article">
