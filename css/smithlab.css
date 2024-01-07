@@ -351,6 +351,54 @@ footer {
 	grid-template-columns: 320px auto;
 	column-gap: 24px;
 }
+.profile-img {
+	position: relative;
+	display: block;
+	width: 380px;
+	height: 380px;
+	border-radius: 50%;
+	overflow: hidden;
+	z-index: 1;
+}
+.profile-img img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.profile-info {
+	min-height: 380px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+	padding: 0px 0px 0px 48px;
+}
+.profile-info h1 {
+	font-weight: 500;
+	margin: 0px 0px 8px 0px;
+	color: #fff;
+}
+.profile-info h4 {
+	color: rgba(255,255,255,0.7);
+	margin: 0px 0px 32px 0px;
+}
+.social-icons span {
+	margin-right: 12px;
+}
+.social-icons a {
+	display: inline-block;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	color: #fff;
+	margin: 0px 16px 0px 0px;
+}
+.social-icons a:last-child {
+	margin: 0px;
+}
 .large-para {
 	font-size: 1rem;
 	font-weight: 400;
@@ -394,6 +442,21 @@ footer {
 }
 .bx,.space1,.space2,.space3,.space4,.space5,.space6,.space7,.space8,.space9,.space10 {
 	float: left;
+}
+.space1 {
+	height: 10px;
+}
+.space2 {
+	height: 20px;
+}
+.space3 {
+	height: 30px;
+}
+.space4 {
+	height: 40px;
+}
+.space5 {
+	height: 50px;
 }
 .x-p {
 	padding:0px;
