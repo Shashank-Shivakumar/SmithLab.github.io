@@ -15,7 +15,7 @@ gwu: emily-smith
 <section class="container">
 <div class="col-lg-3 col-mg-3 col-sm-12 col-xs-12 col-lg-offset-1">
 <div class="profile-img">
-<img src="images/teampic/emilysmith.jpg" width="400" height="400" alt="Emily Smith">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/emilysmith.jpg" width="400" height="400" alt="Emily Smith">
 </div>				
 </div>
 <div class="col-lg-7 col-mg-7 col-sm-12 col-xs-12 col-lg-offset-1">
