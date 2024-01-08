@@ -23,30 +23,28 @@ gwu: emily-smith
 <div class="profile-info">
 <h1>{{ member.title }}</h1>
 <h4>{{ member.position }}</h4>
-
 <div class="bx social-icons">
 <span class="w-txt">Follow me on</span>
 
 {% if member.gwu %}
 
-<a href="https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/{{ member.gwu }}"><i 
-class="fa fa-university" aria-hidden="true"></i></a>
+    <a href="https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/{{ member.gwu }}"><i class="fa fa-university" aria-hidden="true"></i></a>
 
 {% endif %}
 {% if member.twitter %}
 
-<a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 
 {% endif %}
 {% if member.github %}
 
-<a href="https://github.com/{{ member.github }}"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+    <a href="https://github.com/{{ member.github }}"><i class="fa fa-github-square" aria-hidden="true"></i></a>
 
 {% endif %}
 {% if member.scholar %}
 
-<a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
-
+    <a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+    
 {% endif %}
 
 </div>
