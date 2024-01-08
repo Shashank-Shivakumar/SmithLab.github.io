@@ -16,19 +16,39 @@ gwu: emily-smith
 <section class="container">
 <div class="col-lg-3 col-mg-3 col-sm-12 col-xs-12 col-lg-offset-1">
 <div class="profile-img">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/emilysmith.jpg" width="400" height="400" alt="Emily Smith">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="400" height="400" alt="{{ member.title }}">
 </div>				
 </div>
 <div class="col-lg-7 col-mg-7 col-sm-12 col-xs-12 col-lg-offset-1">
 <div class="profile-info">
 <h1>{{ member.title }}</h1>
-<h4>Principal Investigator</h4>
+<h4>{{ member.position }}</h4>
 <div class="bx social-icons">
 <span class="w-txt">Follow me on</span>
-<a href="https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/emily-smith"><i class="fa fa-university" aria-hidden="true"></i></a>
-<a href="https://twitter.com/DrEmilyRSmith"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-<a href="https://github.com/emily-r-smith"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-<a href="http://scholar.google.com/citations?user=qQx4iIwAAAAJ"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+{% if member.gwu %}
+<a href="https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/{{ member.gwu }}"><i class="fa fa-university" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.twitter %}
+<a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.github %}
+<a href="https://github.com/{{ member.github }}"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.scholar %}
+<a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.linkedin %}
+<a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.researchGate %}
+<a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.orcid %}
+<a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+{% endif %}
+{% if member.email %}
+<a href="http://scholar.google.com/citations?user={{ member.scholar }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+{% endif %}
 </div>
 </div>
 </div>
