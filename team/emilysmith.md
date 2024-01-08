@@ -10,6 +10,7 @@ scholar: qQx4iIwAAAAJ
 photo: emilysmith.jpg
 gwu: emily-smith
 ---
+{% assign member = page %}
 
 <div class="container-fluid our-team">
 <section class="container">
@@ -20,7 +21,7 @@ gwu: emily-smith
 </div>
 <div class="col-lg-7 col-mg-7 col-sm-12 col-xs-12 col-lg-offset-1">
 <div class="profile-info">
-<h1>Emily R. Smith</h1>
+<h1>{{ member.title }}</h1>
 <h4>Principal Investigator</h4>
 <div class="bx social-icons">
 <span class="w-txt">Follow me on</span>
