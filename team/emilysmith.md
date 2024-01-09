@@ -28,14 +28,30 @@ gwu: emily-smith
 <h4>{{ member.position }}</h4>
 <div class="bx social-icons">
 <span class="w-txt">Follow me on</span>
-{{ member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-envelope" aria-hidden="true"></i></a>' if member.email }}
-{{ member.gwu | prepend: 'https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' if member.gwu }}
-{{ member.twitter | prepend: 'https://twitter.com/' | prepend: '<a href="' | append: '"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>' if member.twitter }}
-{{ member.github | prepend: 'https://github.com/' | prepend: '<a href="' | append: '"><i class="fa fa-github-square" aria-hidden="true"></i></a>' if member.github }}
-{{ member.scholar | prepend: 'http://scholar.google.com/citations?user=' | prepend: '<a href="' | append: '"><i class="ai ai-google-scholar-square ai-1x" aria-hidden="true"></i></a>' if member.scholar }}
-{{ member.linkedin | prepend: 'https://www.linkedin.com/in/' | prepend: '<a href="' | append: '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>' if member.linkedin }}
-{{ member.researchGate | prepend: 'https://www.researchgate.net/profile/' | prepend: '<a href="' | append: '"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>' if member.researchGate }}
-{{ member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fab fa-orcid" aria-hidden="true"></i></a>' if member.orcid }}
+{% if member.email != nil and member.email != '' %}
+{{ member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-envelope" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.gwu != nil and member.gwu != '' %}
+{{ member.gwu | prepend: 'https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.twitter != nil and member.twitter != '' %}
+{{ member.twitter | prepend: 'https://twitter.com/' | prepend: '<a href="' | append: '"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.github != nil and member.github != '' %}
+{{ member.github | prepend: 'https://github.com/' | prepend: '<a href="' | append: '"><i class="fa fa-github-square" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.scholar != nil and member.scholar != '' %}
+{{ member.scholar | prepend: 'http://scholar.google.com/citations?user=' | prepend: '<a href="' | append: '"><i class="ai ai-google-scholar-square ai-1x" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.linkedin != nil and member.linkedin != '' %}
+{{ member.linkedin | prepend: 'https://www.linkedin.com/in/' | prepend: '<a href="' | append: '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.researchGate != nil and member.researchGate != '' %}
+{{ member.researchGate | prepend: 'https://www.researchgate.net/profile/' | prepend: '<a href="' | append: '"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>' }}
+{% endif %}
+{% if member.orcid != nil and member.orcid != '' %}
+{{ member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fab fa-orcid" aria-hidden="true"></i></a>' }}
+{% endif %}
 </div>
 </div>
 </div>
