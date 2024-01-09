@@ -3,12 +3,13 @@ layout: homelay
 title: Emily R. Smith
 position: Principal Investigator
 handle: emilysmith
-email: 
+email: shashank@gmail.com
 twitter: DrEmilyRSmith
 github: emily-r-smith
 scholar: qQx4iIwAAAAJ
 photo: emilysmith.jpg
 gwu: emily-smith
+linkedin: shashank-shivu
 ---
 {% assign member = page %}
 
@@ -25,10 +26,14 @@ gwu: emily-smith
 <h4>{{ member.position }}</h4>
 <div class="bx social-icons">
 <span class="w-txt">Follow me on</span>
+{{ member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' if member.email }}
 {{ member.gwu | prepend: 'https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' if member.gwu }}
 {{ member.twitter | prepend: 'https://twitter.com/' | prepend: '<a href="' | append: '"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>' if member.twitter }}
 {{ member.github | prepend: 'https://github.com/' | prepend: '<a href="' | append: '"><i class="fa fa-github-square" aria-hidden="true"></i></a>' if member.github }}
 {{ member.scholar | prepend: 'http://scholar.google.com/citations?user=' | prepend: '<a href="' | append: '"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>' if member.scholar }}
+{{ member.linkedin | prepend: 'https://www.linkedin.com/in/' | prepend: '<a href="' | append: '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>' if member.linkedin }}
+{{ member.researchGate | prepend: 'https://www.researchgate.net/profile/' | prepend: '<a href="' | append: '"><i class="ai ai-google-scholar-square ai-1x" aria-hidden="true"></i></a>' if member.researchGate }}
+{{ member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fab fa-orcid" aria-hidden="true"></i></a>' if member.orcid }}
 </div>
 </div>
 </div>
