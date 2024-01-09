@@ -3,13 +3,15 @@ layout: homelay
 title: Emily R. Smith
 position: Principal Investigator
 handle: emilysmith
-email: 
 twitter: DrEmilyRSmith
 github: emily-r-smith
 scholar: qQx4iIwAAAAJ
 photo: emilysmith.jpg
 gwu: emily-smith
-linkedin: 
+# email: 
+# linkedin:
+# orcid:
+# researchGate: 
 ---
 {% assign member = page %}
 
@@ -26,7 +28,7 @@ linkedin:
 <h4>{{ member.position }}</h4>
 <div class="bx social-icons">
 <span class="w-txt">Follow me on</span>
-{{ member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-inbox fa-fw" aria-hidden="true"></i></a>' if member.email }}
+{{ member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-envelope" aria-hidden="true"></i></a>' if member.email }}
 {{ member.gwu | prepend: 'https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' if member.gwu }}
 {{ member.twitter | prepend: 'https://twitter.com/' | prepend: '<a href="' | append: '"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>' if member.twitter }}
 {{ member.github | prepend: 'https://github.com/' | prepend: '<a href="' | append: '"><i class="fa fa-github-square" aria-hidden="true"></i></a>' if member.github }}
