@@ -26,32 +26,58 @@ gwu: emily-smith
 <div class="profile-info">
 <h1>{{ member.title }}</h1>
 <h4>{{ member.position }}</h4>
+
+{% assign email_link = '' %}
+{% assign gwu_link = '' %}
+{% assign twitter_link = '' %}
+{% assign github_link = '' %}
+{% assign scholar_link = '' %}
+{% assign linkedin_link = '' %}
+{% assign researchGate_link = '' %}
+{% assign orcid_link = '' %}
+
+{% if member.email != nil and member.email != '' %}
+  {% assign email_link = member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-envelope" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.gwu != nil and member.gwu != '' %}
+  {% assign gwu_link = member.gwu | prepend: 'https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.twitter != nil and member.twitter != '' %}
+{% assign twitter_link = member.twitter | prepend: 'https://twitter.com/' | prepend: '<a href="' | append: '"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.github != nil and member.github != '' %}
+{% assign github_link = member.github | prepend: 'https://github.com/' | prepend: '<a href="' | append: '"><i class="fa fa-github-square" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.scholar != nil and member.scholar != '' %}
+{% assign scholar_link = member.scholar | prepend: 'http://scholar.google.com/citations?user=' | prepend: '<a href="' | append: '"><i class="ai ai-google-scholar-square ai-1x" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.linkedin != nil and member.linkedin != '' %}
+{% assign linkedin_link = member.linkedin | prepend: 'https://www.linkedin.com/in/' | prepend: '<a href="' | append: '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.researchGate != nil and member.researchGate != '' %}
+{% assign researchGate_link = member.researchGate | prepend: 'https://www.researchgate.net/profile/' | prepend: '<a href="' | append: '"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>' %}
+{% endif %}
+
+{% if member.orcid != nil and member.orcid != '' %}
+{% assign orcid_link = member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fab fa-orcid" aria-hidden="true"></i></a>' %}
+{% endif %}
+
 <div class="bx social-icons">
-<span class="w-txt">Follow me on</span>
-{% if member.email %}
-{{ member.email | prepend: 'mailto:' | prepend: '<a href="' | append: '"><i class="fa fa-envelope" aria-hidden="true"></i></a>' if member.email != nil and member.email != '' }}
-{% endif %}
-{% if member.gwu %}
-{{ member.gwu | prepend: 'https://publichealth.gwu.edu/departments/global-health-exercise-and-nutrition-sciences/' | prepend: '<a href="' | append: '"><i class="fa fa-university" aria-hidden="true"></i></a>' if member.gwu != nil and member.gwu != '' }}
-{% endif %}
-{% if member.twitter %}
-{{ member.twitter | prepend: 'https://twitter.com/' | prepend: '<a href="' | append: '"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>' if member.twitter != nil and member.twitter != '' }}
-{% endif %}
-{% if member.github %}
-{{ member.github | prepend: 'https://github.com/' | prepend: '<a href="' | append: '"><i class="fa fa-github-square" aria-hidden="true"></i></a>' if member.github != nil and member.github != '' }}
-{% endif %}
-{% if member.scholar %}
-{{ member.scholar | prepend: 'http://scholar.google.com/citations?user=' | prepend: '<a href="' | append: '"><i class="ai ai-google-scholar-square ai-1x" aria-hidden="true"></i></a>' if member.scholar != nil and member.scholar != '' }}
-{% endif %}
-{% if member.linkedin %}
-{{ member.linkedin | prepend: 'https://www.linkedin.com/in/' | prepend: '<a href="' | append: '"><i class="fa fa-linkedin" aria-hidden="true"></i></a>' if member.linkedin != nil and member.linkedin != '' }}
-{% endif %}
-{% if member.researchGate %}
-{{ member.researchGate | prepend: 'https://www.researchgate.net/profile/' | prepend: '<a href="' | append: '"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>' if member.researchGate != nil and member.researchGate != '' }}
-{% endif %}
-{% if member.orcid %}
-{{ member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fab fa-orcid" aria-hidden="true"></i></a>' if member.orcid != nil and member.orcid != '' }}
-{% endif %}
+  <span class="w-txt">Follow me on</span>
+  {{ email_link }}
+  {{ gwu_link }}
+  {{ twitter_link }}
+  {{ github_link }}
+  {{ scholar_link }}
+  {{ linkedin_link }}
+  {{ researchGate_link }}
+  {{ orcid_link }}
 </div>
 
 </div>
