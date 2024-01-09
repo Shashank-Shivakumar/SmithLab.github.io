@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Emily R. Smith
-position: Principal Investigator
+position: Associate Professor
 handle: emilysmith
 twitter: DrEmilyRSmith
 github: emily-r-smith

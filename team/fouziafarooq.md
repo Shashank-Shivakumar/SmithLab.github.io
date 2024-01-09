@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Fouzia Farooq
-position: Postdoctoral Scholar
+position: Assistant Professor
 handle: 
 email: fouziafarooq@email.gwu.edu
 twitter:
