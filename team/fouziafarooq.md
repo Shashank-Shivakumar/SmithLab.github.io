@@ -7,7 +7,7 @@ email: fouziafarooq@email.gwu.edu
 twitter:
 github:
 scholar: 
-orcid: 0000-0001-6491-6323
+orcid: fsdfndsfsf-sdfsdf-sdfsd-fsd1
 linkedin: fouziafarooq
 photo: fouziafarooq.jpg
 gwu: 
