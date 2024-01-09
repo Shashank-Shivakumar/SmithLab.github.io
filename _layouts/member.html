@@ -42,7 +42,7 @@ layout: default
 {% endif %}
 
 {% if member.orcid != nil and member.orcid != '' %}
-{% assign orcid_link = member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fab fa-orcid" aria-hidden="true"></i></a>' %}
+{% assign orcid_link = member.orcid | prepend: 'https://orcid.org/' | prepend: '<a href="' | append: '"><i class="fa fa-orcid" aria-hidden="true"></i></a>' %}
 {% endif %}
 <div class="container-fluid our-team">
 <section class="container">
