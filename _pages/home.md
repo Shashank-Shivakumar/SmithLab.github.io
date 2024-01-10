@@ -143,23 +143,10 @@ permalink: /
 </div>
 </div>
 <div class="bx txt-a-c cta-wrapper">
-<a href="#" class="btn btn-secondry">View All Coverage</a>
+<a href="#" class="btn btn-primary">View All Coverage</a>
 </div>
 </section>			
 </div>
 
-<!-- <footer class="bx footer">
-<div class="container">
-<div class="bx txt-a-c cta-wrapper line-cta">
-<a href="#" class="btn btn-primary footer-nav">Join Our Group</a>
-<a href="#" class="btn btn-primary footer-nav">Our Sponsers</a>
-<a href="#" class="btn btn-primary footer-nav">Get in Touch</a>
-</div>
-</div>
-</footer>
-
-
-<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script> -->
 </body>
 </html>
