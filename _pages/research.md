@@ -10,7 +10,7 @@ permalink: /research/
 <section class="container">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
 <h1 class="w-txt">Research Highlights</h1>
-<p class="a7-w-txt">Short description about the research and article goes here and here also, short description about the research and article goes here and here also.</p>
+<p class="a7-w-txt">Explore Our Research: Dive into Our Ongoing Endeavors and Past Projects Shaping the Future of Our Field.</p>
 </div>
 </section>
 </div>

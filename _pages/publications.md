@@ -22,15 +22,12 @@ permalink: /publications/
 <h2 class="section-title">Featured</h2>
 </div>
 <div class="bx recent-updates-list">
-{% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
-{% assign even_odd = number_printed | modulo: 2 %}
 <div class="bx recent-bx">
 <a href="{{ publi.link.url }}">
 <div class="media">
-<!-- Image can be included here if needed -->
-<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/ScienceAdvances.png" width="225" height="225" alt="{{ publi.title }}"> 
+<img src="{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> 
 </div>
 <div class="info">
 <h3 class="title">{{ publi.title }}</h3>
@@ -38,7 +35,6 @@ permalink: /publications/
 </div>
 </a>
 </div>
-{% assign number_printed = number_printed | plus: 1 %}
 {% endif %}
 {% endfor %}
 </div>
@@ -48,4 +44,5 @@ permalink: /publications/
 </section>
 <!-- Publication section ends -->
 </div>
+
 
