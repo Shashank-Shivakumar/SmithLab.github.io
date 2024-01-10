@@ -30,7 +30,7 @@ permalink: /publications/
 <a href="{{ publi.link.url }}">
 <div class="media">
 <!-- Image can be included here if needed -->
-<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> -->
+<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/ScienceAdvances.png" width="225" height="225" alt="{{ publi.title }}"> 
 </div>
 <div class="info">
 <h3 class="title">{{ publi.title }}</h3>
