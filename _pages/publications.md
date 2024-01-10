@@ -28,10 +28,10 @@ permalink: /publications/
 
 <div class="bx recent-bx">
 <!-- <a href="{{ publi.link.url }}"> -->
-<div class="media">
+<div class="media clickable-div" data-href="{{ publi.link.url }}">
 <img src="{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> 
 </div>
-<div class="info">
+<div class="info clickable-div" data-href="{{ publi.link.url }}">
 <h3 class="title">{{ publi.title }}</h3>
 <h5 class="sub-txt">{{ publi.display }}</h5>
 </div>
@@ -47,4 +47,12 @@ permalink: /publications/
 <!-- Publication section ends -->
 </div>
 
-
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+document.querySelectorAll('.clickable-div').forEach(div => {
+div.addEventListener('click', function() {
+window.location.href = this.getAttribute('data-href');
+});
+});
+});
+</script>
