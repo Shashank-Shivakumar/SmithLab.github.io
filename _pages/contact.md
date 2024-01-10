@@ -1,14 +1,23 @@
 ---
 title: "Smith Lab - Contact"
-layout: textlay
+layout: homelay
 excerpt: "Contact."
 sitemap: false
 permalink: /contact/
 ---
+<div class="container-fluid our-team">
+<section class="container">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
+<h1 class="w-txt">Contact</h1>
+<p class="a7-w-txt">Short description about the research team goes here and here also, short description about the research team goes here and here also.</p>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-# Contact
+</div>
+</section>
+</div>
 
-<div class="row">
+<section class="container">
 <div class="col-sm-12 col-xs-12">
 
 <div class="row">
@@ -38,4 +47,4 @@ permalink: /contact/
 
 
 </div>
-</div>
+</section>
