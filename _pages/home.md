@@ -74,7 +74,7 @@ permalink: /
 </a>
 </div>
 <div class="bx txt-a-c cta-wrapper">
-<a href="#" class="btn btn-primary">View All Publications</a>
+<a href="/SmithLab.github.io/publications" class="btn btn-primary">View All Publications</a>
 </div>
 </section>
 <!--publication section ends-->
@@ -106,7 +106,7 @@ permalink: /
 </a>
 </div>
 <div class="bx txt-a-c cta-wrapper">
-<a href="#" class="btn btn-primary">See All Research</a>
+<a href="/SmithLab.github.io/research" class="btn btn-primary">See All Research</a>
 </div>
 </section>
 <!--research section ends-->
@@ -142,9 +142,9 @@ permalink: /
 </a>
 </div>
 </div>
-<div class="bx txt-a-c cta-wrapper">
+<!-- <div class="bx txt-a-c cta-wrapper">
 <a href="#" class="btn btn-primary">View All Coverage</a>
-</div>
+</div> -->
 </section>			
 </div>
 
