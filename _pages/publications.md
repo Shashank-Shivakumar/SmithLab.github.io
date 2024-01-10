@@ -10,7 +10,7 @@ permalink: /publications/
 <section class="container">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
 <h1 class="w-txt">Publications</h1>
-<p class="a7-w-txt">Short description about the publications goes here and here also, short description about the research team goes here and here also.</p>
+<p class="a7-w-txt">Discover the Depth and Breadth of Our Academic Endeavors Through an Extensive Collection of Publications</p>
 </div>
 </section>
 </div>
@@ -26,8 +26,10 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 {% if publi.highlight == 1 %}
 {% assign even_odd = number_printed | modulo: 2 %}
-<a href="{{ publi.link.url }}" class="bx recent-bx">
+<div class="bx recent-bx">
+<a href="{{ publi.link.url }}">
 <div class="media">
+<!-- Image can be included here if needed -->
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> -->
 </div>
 <div class="info">
@@ -35,6 +37,7 @@ permalink: /publications/
 <h5 class="sub-txt">{{ publi.author }} {{ publi.source }} ({{ publi.year }})</h5>
 </div>
 </a>
+</div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endif %}
 {% endfor %}

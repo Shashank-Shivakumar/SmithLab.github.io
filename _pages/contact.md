@@ -9,7 +9,7 @@ permalink: /contact/
 <section class="container">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 x-p">
 <h1 class="w-txt">Contact</h1>
-<p class="a7-w-txt">Short description about the research team goes here and here also, short description about the research team goes here and here also.</p>
+<p class="a7-w-txt">Reach Out and Connect: Your Direct Line for Queries, Support, and Feedback</p>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
@@ -23,7 +23,7 @@ permalink: /contact/
 <div class="row">
 <div class="col-md-4">
 <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="mailto:emilysmith@gwu.edu"><b>emilysmith@gwu.edu</b></a><br /><br />
-<i class="fa fa-twitter fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="https://twitter.com/DrEmilyRSmith"><b>@DrEmilyRSmith</a><br /><br />
+<i class="fa fa-twitter fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="https://twitter.com/DrEmilyRSmith"><b>@DrEmilyRSmith</b></a><br /><br />
 <i class="fa fa-phone fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="tel:+12029943589"><b>+1(202) 994-3589</b></a> <br><br />
 <!-- <i class="fa fa-github fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="https://github.com/SmithLabGWSPH">SmithLabGWSPH</a> -->
 </div>
