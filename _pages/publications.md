@@ -33,7 +33,7 @@ permalink: /publications/
 </div>
 <div class="info">
 <h3 class="title">{{ publi.title }}</h3>
-<h5 class="sub-txt">{{ publi.author }} {{ publi.source }} ({{ publi.year }})</h5>
+<h5 class="sub-txt">{{ publi.display }}</h5>
 </div>
 <!-- </a> -->
 </div>
