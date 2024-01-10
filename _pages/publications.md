@@ -33,7 +33,7 @@ permalink: /publications/
 </div>
 <div class="info clickable-div" data-href="{{ publi.link.url }}">
 <h3 class="title">{{ publi.title }}</h3>
-<h5 class="sub-txt">{{ publi.display }}</h5>
+<h5 class="sub-txt">{{ publi.link.display }}</h5>
 </div>
 <!-- </a> -->
 </div>

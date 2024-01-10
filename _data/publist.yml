@@ -3,8 +3,8 @@
   description:
   authors:
   link:
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270150
-  display:  Smith et al. PLOS ONE (2022)
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270150
+    display:  Smith et al. PLOS ONE (2022)
   highlight: 1
   news2:
 
@@ -13,8 +13,8 @@
   description:
   authors:
   link:
-  url: https://www.sciencedirect.com/science/article/pii/S0264410X22005369?casa_token=uOb6dZA5BtYAAAAA:YZt3S3kVArCRZA4f794ur98OsVaU6G13l4JO02hllMSPxtxNa-wDsItd5SnE6SZTQVXTFM9rcg
-  display:  Quinn et al. Vaccine (2022)
+    url: https://www.sciencedirect.com/science/article/pii/S0264410X22005369?casa_token=uOb6dZA5BtYAAAAA:YZt3S3kVArCRZA4f794ur98OsVaU6G13l4JO02hllMSPxtxNa-wDsItd5SnE6SZTQVXTFM9rcg
+    display:  Quinn et al. Vaccine (2022)
   highlight: 1
   news2:
 
@@ -23,8 +23,8 @@
   description:
   authors:
   link:
-  url: https://www.science.org/doi/full/10.1126/sciadv.abj8016
-  display:  Smith et al. ScienceAdvances (2021)
+    url: https://www.science.org/doi/full/10.1126/sciadv.abj8016
+    display:  Smith et al. ScienceAdvances (2021)
   highlight: 1
   news2:
 
@@ -33,8 +33,8 @@
   description:
   authors:
   link:
-  url: https://www.sciencedirect.com/science/article/pii/S2214109X17303716
-  display:  Smith et al. THE LANCET (2017)
+    url: https://www.sciencedirect.com/science/article/pii/S2214109X17303716
+    display:  Smith et al. THE LANCET (2017)
   highlight: 1
   news2:
 
@@ -43,8 +43,8 @@
   description:
   authors: 
   link:
-  url: https://publications.aap.org/pediatrics/article/150/Supplement%201/e2022057092F/188648/Responsive-Feeding-for-Preterm-or-Low-Birth-Weight?autologincheck=redirected?nfToken=00000000-0000-0000-0000-000000000000
-  display:  Talej et al. Pediatrics (2022)
+    url: https://publications.aap.org/pediatrics/article/150/Supplement%201/e2022057092F/188648/Responsive-Feeding-for-Preterm-or-Low-Birth-Weight?autologincheck=redirected?nfToken=00000000-0000-0000-0000-000000000000
+    display:  Talej et al. Pediatrics (2022)
   highlight: 1
   news2:
 
@@ -53,8 +53,8 @@
   description:
   authors: 
   link:
-  url: https://doi.org/10.1542/peds.2022-057092E
-  display:  Chitale et al. Pediatrics (2022)
+    url: https://doi.org/10.1542/peds.2022-057092E
+    display:  Chitale et al. Pediatrics (2022)
   highlight: 1
   news2:
 
@@ -63,8 +63,8 @@
   description:
   authors: 
   link:
-  url: https://doi.org/10.1542/peds.2022-057092H
-  display:  Yang et al. Pediatrics (2022)
+    url: https://doi.org/10.1542/peds.2022-057092H
+    display:  Yang et al. Pediatrics (2022)
   highlight: 1
   news2:
 
@@ -73,7 +73,7 @@
   description:
   authors: 
   link:
-  url: https://doi.org/10.1542/peds.2022-057092G
-  display:  Yang et al. Pediatrics (2022)
+    url: https://doi.org/10.1542/peds.2022-057092G
+    display:  Yang et al. Pediatrics (2022)
   highlight: 1
   news2:

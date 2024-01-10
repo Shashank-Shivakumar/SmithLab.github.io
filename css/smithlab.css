@@ -461,3 +461,6 @@ footer {
 .x-p {
 	padding:0px;
 }
+.clickable-div {
+    cursor: pointer;
+}
