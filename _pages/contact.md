@@ -22,7 +22,7 @@ permalink: /contact/
 
 <div class="row">
 <div class="col-md-4">
-<i class="fa fa-envelope fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="mailto:emilysmith@gwu.edu">emilysmith@gwu.edu</a><br /><br />
+<i class="fa fa-envelope fa-1x" style="font-size:24px !important"aria-hidden="true"></i>&nbsp; &nbsp;<a href="mailto:emilysmith@gwu.edu">emilysmith@gwu.edu</a><br /><br />
 <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="https://twitter.com/DrEmilyRSmith">@DrEmilyRSmith</a><br /><br />
 <i class="fa fa-phone fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="tel:+12029943589">+1(202)994-3589</a> <br><br />
 <!-- <i class="fa fa-github fa-1x" aria-hidden="true"></i>&nbsp; &nbsp;<a href="https://github.com/SmithLabGWSPH">SmithLabGWSPH</a> -->
