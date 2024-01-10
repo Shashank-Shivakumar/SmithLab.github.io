@@ -27,7 +27,7 @@ permalink: /publications/
 {% if publi.highlight == 1 %}
 
 <div class="bx recent-bx">
-<!-- <a href="{{ publi.link.url }}"> -->
+<a href="{{ publi.link.url }}">
 <div class="media">
 <img src="{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> 
 </div>
@@ -35,7 +35,7 @@ permalink: /publications/
 <h3 class="title">{{ publi.title }}</h3>
 <h5 class="sub-txt">{{ publi.author }} {{ publi.source }} ({{ publi.year }})</h5>
 </div>
-<!-- </a> -->
+</a>
 </div>
 {% endif %}
 {% endfor %}
