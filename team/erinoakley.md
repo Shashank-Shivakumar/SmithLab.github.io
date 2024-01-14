@@ -8,7 +8,7 @@ twitter:
 github:
 scholar: 
 linkedin: erin-oakley-27571b136
-photo: erinoakley.png
+photo: erinoakley.jpg
 ucsf: 
 ---
 

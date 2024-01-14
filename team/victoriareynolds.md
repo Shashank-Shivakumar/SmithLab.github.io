@@ -8,7 +8,7 @@ twitter:
 github:
 linkedin: victoriasreynolds
 scholar: 
-photo: victoriareynolds.jpeg
+photo: victoria-reynolds.jpg
 gwu: 
 ---
 

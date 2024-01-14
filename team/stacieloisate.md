@@ -8,7 +8,7 @@ twitter:
 github:
 scholar: 
 linkedin: stacie-loisate
-photo: stacieloisate.jpeg
+photo: stacie-loisate.jpg
 ---
 
 <section class="container">

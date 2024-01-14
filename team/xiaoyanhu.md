@@ -8,7 +8,7 @@ twitter:
 github:
 scholar: 
 linkedin: xiaoyan-hu-24331742
-photo: xiaoyanhu.jpeg
+photo: xiaoyan-hu.jpeg
 gwu: 
 ---
 

@@ -9,7 +9,7 @@ twitter:
 github:
 researchGate: Sasha_Baumann
 scholar: 7MSqmokAAAAJ 
-photo: sasha-baumann.jpg
+photo: sasha-baumann.jpeg
 ucsf: 
 ---
 

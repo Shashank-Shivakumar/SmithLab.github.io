@@ -29,7 +29,7 @@
   group: 1
 
 - name: Jenny Kim
-  photo: jennykim.jpg
+  photo: jennykim.png
   info: PhD Student
   url: jennykim
   group: 1
@@ -41,7 +41,7 @@
   group: 1
 
 - name: Xiaoyan Hu
-  photo: xiaoyan-hu.jpg
+  photo: xiaoyan-hu.jpeg
   info: Senior Research Associate, Data Management
   url: xiaoyanhu
   group: 2
@@ -65,7 +65,7 @@
   group: 2
 
 - name: Sasha Baumann
-  photo: sasha-baumann.jpg
+  photo: sasha-baumann.jpeg
   info: Senior Research Associate
   url: sashabaumann
   group: 2
@@ -74,7 +74,7 @@
 
 
 - name: Jaime Marquis
-  photo: jaimemarquis.jpg
+  photo: jaimemarquis.png
   info: Research Associate
   url: jaimemarquis
   group: 2
@@ -92,7 +92,7 @@
   group: 2
 
 - name: Precious Williams
-  photo: preciouswilliams.jpg
+  photo: preciouswilliams.png
   info: Research Assistant
   url: preciouswilliams
   group: 2
