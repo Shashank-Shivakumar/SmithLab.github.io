@@ -43,7 +43,7 @@ Specific PRISMA MNH study objectives include: improving global understanding of 
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/multivitamin.jpg" width="300" height="300" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/vitamin.jpg" width="300" height="300" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Comprehensive Multivitamins in Pregnancy Improve Birth Outcomes</h2>
