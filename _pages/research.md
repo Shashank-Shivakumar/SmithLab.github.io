@@ -33,7 +33,7 @@ Specific PRISMA MNH study objectives include: improving global understanding of 
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/sqaure-img-300px-03.jpg" width="300" height="300" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/maternal_anemia_study.png" width="300" height="300" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Redefining Maternal Anemia in Pregnancy and Postpartum Study</h2>
@@ -43,7 +43,7 @@ Specific PRISMA MNH study objectives include: improving global understanding of 
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/vitamin.jpg" width="300" height="300" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/Multivitamins_in_Pregnancy.png" width="300" height="300" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Comprehensive Multivitamins in Pregnancy Improve Birth Outcomes</h2>
@@ -67,7 +67,7 @@ Dr. Smith is further evaluating optimal nutrition during pregnancy through the M
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/large-square-image-02.jpg" width="552" height="552" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/Pregnancy_Trial_in_Ghana.png" width="552" height="552" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Adverse Outcomes in Pregnancy Trial Ghana</h2>
@@ -108,7 +108,7 @@ There is clear evidence that micronutrient supplementation during pregnancy can 
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/sqaure-img-300px-03.jpg" width="300" height="300" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/Early_Breastfeeding-1.png" width="300" height="300" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Effects of Early Breastfeeding Initiation on Infant Morbidity and Mortality</h2>
@@ -121,7 +121,7 @@ To build upon previous findings, we completed a study among a cohort of children
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/sqaure-img-300px-03.jpg" width="300" height="300" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/Viral_Diarrhea.png" width="300" height="300" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Immunology, Epidemiology, and Burden of Viral Diarrhea</h2>
