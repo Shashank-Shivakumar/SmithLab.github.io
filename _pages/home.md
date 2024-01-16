@@ -33,7 +33,7 @@ permalink: /
 <h6>Featured publications</h6>
 </div>
 <div class="bx recent-updates">
-<a href="#" class="bx recent-bx">
+<a href="https://www.science.org/doi/full/10.1126/sciadv.abj8016" class="bx recent-bx" target="_blank">
 <div class="media">
 <img src="images/ScienceAdvances.png" width="225" height="225" alt="Science Advances">
 </div>
@@ -43,7 +43,7 @@ permalink: /
 </div>
 </a>
 
-<a href="#" class="bx recent-bx">
+<a href="https://www.sciencedirect.com/science/article/pii/S2214109X17303716" class="bx recent-bx" target="_blank">
 <div class="media">
 <img src="images/sqaure-img-300px-01.jpg" width="300" height="300" alt="Science Advances">
 </div>
@@ -53,7 +53,7 @@ permalink: /
 </div>
 </a>
 
-<a href="#" class="bx recent-bx">
+<a href="https://publications.aap.org/pediatrics/article/150/Supplement%201/e2022057092F/188648/Responsive-Feeding-for-Preterm-or-Low-Birth-Weight?autologincheck=redirected?nfToken=00000000-0000-0000-0000-000000000000" class="bx recent-bx" target="_blank">
 <div class="media">
 <img src="images/sqaure-img-300px-02.jpg" width="300" height="300" alt="Science Advances">
 </div>
@@ -63,7 +63,7 @@ permalink: /
 </div>
 </a>
 
-<a href="#" class="bx recent-bx">
+<a href="https://doi.org/10.1542/peds.2022-057092H" target="_blank" class="bx recent-bx">
 <div class="media">
 <img src="images/sqaure-img-300px-03.jpg" width="300" height="300" alt="Science Advances">
 </div>
