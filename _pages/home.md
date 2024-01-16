@@ -89,7 +89,7 @@ permalink: /
 <div class="bx recent-updates">
 <a href="#" class="bx research-bx">
 <div class="media">
-<img src="images/Prisma_main.png" width="552" height="552" alt="Research title goes here">
+<img src="images/prisma_new.png" width="552" height="552" alt="Research title goes here">
 </div>
 <div class="bx info">
 <h3 class="title">Pregnancy Risk and Infant Surveillance and Measurement Alliance Maternal and Newborn Health Study</h3>
