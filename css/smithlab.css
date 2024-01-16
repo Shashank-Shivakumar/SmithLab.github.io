@@ -415,6 +415,9 @@ footer {
 	color: #0E63FF;
 }
 .txt-a-c {
+	text-align: center;
+}
+.txt-a-b {
 	text-align: justify;
 }
 .cta-wrapper {
