@@ -21,7 +21,7 @@ permalink: /research/
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/large-square-image-02.jpg" width="552" height="552" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/PRISMA.png" width="552" height="552" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Pregnancy Risk and Infant Surveillance and Measurement Alliance Maternal and Newborn Health Study</h2>
@@ -88,7 +88,7 @@ There is clear evidence that micronutrient supplementation during pregnancy can 
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/large-square-image-02.jpg" width="552" height="552" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/Covid_101.jpg" width="552" height="552" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>COVID-101: Evidence-based communications to answer COVID-19 questions</h2>
