@@ -87,7 +87,7 @@ permalink: /
 </div>
 
 <div class="bx recent-updates">
-<a href="#" class="bx research-bx">
+<a href="/SmithLab.github.io/research" class="bx research-bx">
 <div class="media">
 <img src="images/Prisma_main.png" width="552" height="552" alt="Research title goes here">
 </div>
@@ -96,7 +96,7 @@ permalink: /
 </div>
 </a>
 
-<a href="#" class="bx research-bx">
+<a href="/SmithLab.github.io/research" class="bx research-bx">
 <div class="media">
 <img src="images/large-square-image-02.jpg" width="552" height="552" alt="Research title goes here">
 </div>
