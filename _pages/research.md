@@ -98,7 +98,7 @@ There is clear evidence that micronutrient supplementation during pregnancy can 
 
 <div class="bx article">
 <div class="media">
-<img src="{{ site.url }}{{ site.baseurl }}/images/sqaure-img-300px-03.jpg" width="300" height="300" alt="Article title goes here">
+<img src="{{ site.url }}{{ site.baseurl }}/images/respic/Neonatal_trial.png" width="300" height="300" alt="Article title goes here">
 </div>
 <div class="bx info">
 <h2>Neonatal Vitamin A Supplementation Randomized Controlled Trial</h2>

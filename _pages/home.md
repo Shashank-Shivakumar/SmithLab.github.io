@@ -89,19 +89,19 @@ permalink: /
 <div class="bx recent-updates">
 <a href="#" class="bx research-bx">
 <div class="media">
-<img src="images/large-square-image-02.jpg" width="552" height="552" alt="Research title goes here">
+<img src="images/Prisma_main.png" width="552" height="552" alt="Research title goes here">
 </div>
 <div class="bx info">
-<h3 class="title">The Effect of Neonatal Vitamin A Supplementation on Infant Mortality</h3>
+<h3 class="title">Pregnancy Risk and Infant Surveillance and Measurement Alliance Maternal and Newborn Health Study</h3>
 </div>
 </a>
 
 <a href="#" class="bx research-bx">
 <div class="media">
-<img src="images/large-square-image-01.jpg" width="552" height="552" alt="Research title goes here">
+<img src="images/large-square-image-02.jpg" width="552" height="552" alt="Research title goes here">
 </div>
 <div class="bx info">
-<h3 class="title">Comprehensive Multivitamins in Pregnancy Improve Birth Outcomes</h3>
+<h3 class="title">Perinatal COVID-19 Sequential Prospective Meta-Analysis Project</h3>
 </div>
 </a>
 </div>
