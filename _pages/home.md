@@ -18,7 +18,7 @@ permalink: /
 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
 <p class="txt-a-b">We are a dynamic research group led by Dr. Emily R. Smith that focuses on infection and nutrition across the life course. Our goal is to generate, analyze, and translate epidemiological data to improve maternal, newborn, and child health globally. Current and past projects include randomized trials, pregnancy surveillance systems, and health service program evaluations in Tanzania, Ghana, Zambia, Kenya, Rwanda, Uganda, Bolivia, Peru, Afghanistan, India, Pakistan, and the United States.
 <br><br>At Smith Lab we partner with numerous international organizations and research institutes, including the Center for Health Research and Development, Society for Applied Studies; Christian Medical College, Vellore; Kenya Medical Research Institute; Centers for Disease Control and Prevention; University of North Carolina at Chapel Hill; Aga Khan University; Vital Trust Pakistan; Kintampo Health Research Centre; the George Washington University Biostatistics Centre; Columbia University; Mount Sinai Health System; and Harvard T.H. Chan School of Public Health. We are grateful for funding from the Bill & Melinda Gates Foundation, the World Health Organization, and Eunice Kennedy Shriver National Institute of Child Health and Human Development.
-<br><br>You can find our work featured on the likes of CNN, the Washington Post, and Fortune. See some of our recent media coverage below; see all media coverage here.</p>
+</p>
 </div>
 </section>
 </div>
