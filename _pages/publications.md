@@ -29,7 +29,7 @@ permalink: /publications/
 <div class="bx recent-bx">
 <!-- <a href="{{ publi.link.url }}"> -->
 <div class="media clickable-div" data-href="{{ publi.link.url }}">
-<img src="{{ site.baseurl }}/images/pubpic/{{ publi.image }}" width="225" height="225" alt="{{ publi.title }}"> 
+<img src="{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="pub-cover" width="225" height="225" alt="{{ publi.title }}"> 
 </div>
 <div class="info clickable-div" data-href="{{ publi.link.url }}">
 <h3 class="title">{{ publi.title }}</h3>

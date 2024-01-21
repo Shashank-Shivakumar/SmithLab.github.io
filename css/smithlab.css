@@ -488,3 +488,6 @@ footer {
         font-size: smaller;
     }
 }
+.pub-cover{
+	object-fit: cover;
+  }
