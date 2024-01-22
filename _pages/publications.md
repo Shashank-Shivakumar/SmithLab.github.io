@@ -18,7 +18,7 @@ permalink: /publications/
 <div class="container-fluid">
 <!-- Publication section starts here -->
 <section class="container">
-<div class="bx section-title-area">
+<div class="bx section-title-area-new">
 <h2 class="section-title">Featured</h2>
 </div>
 
