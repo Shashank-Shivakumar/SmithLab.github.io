@@ -1,3 +1,14 @@
+- title: "Clinical risk factors of adverse outcomes among women with COVID-19 in the pregnancy and postpartum period: a sequential, prospective meta-analysis"
+  image: AJOG.png
+  description:
+  authors: 
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0002937822006809
+    display:  Smith et al. American Journal of Obstetrics and Gynecology
+  highlight: 1
+  news2:
+  year: 2023
+
 - title: "Protocol for a sequential, prospective meta-analysis to describe coronavirus disease 2019 (COVID-19) in the pregnancy and postpartum periods"
   image: PLOSONE.png
   description:
@@ -7,6 +18,7 @@
     display:  Smith et al. PLOS ONE (2022)
   highlight: 1
   news2:
+  year: 2022
 
 - title: "Non-specific effects of BCG and DTP vaccination on infant mortality: An analysis of birth cohorts in Ghana and Tanzania"
   image: Vaccine.jpeg
@@ -17,6 +29,7 @@
     display:  Quinn et al. Vaccine (2022)
   highlight: 1
   news2:
+  year: 2022
 
 - title: "Limited data exist to inform our basic understanding of micronutrient requirements in pregnancy"
   image: ScienceAdvances.png
@@ -27,6 +40,7 @@
     display:  Smith et al. ScienceAdvances (2021)
   highlight: 1
   news2:
+  year: 2021
 
 - title: "Modifiers of the effect of maternal multiple micronutrient supplementation on stillbirth, birth outcomes, and infant mortality: a meta-analysis of individual patient data from 17 randomised trials in low-income and middle-income countries"
   image: LANCET2017.png
@@ -37,6 +51,7 @@
     display:  Smith et al. THE LANCET (2017)
   highlight: 1
   news2:
+  year: 2017
 
 - title: "Responsive Feeding for Preterm or Low Birth Weight Infants: A Systematic Review and Meta-analysis"
   image: Pediatrics.jpeg
@@ -47,6 +62,7 @@
     display:  Talej et al. Pediatrics (2022)
   highlight: 1
   news2:
+  year: 2022
 
 - title: "Early Enteral Feeding for Preterm or Low Birth Weight Infants: a Systematic Review and Meta-analysis"
   image: Pediatrics.jpeg
@@ -57,6 +73,7 @@
     display:  Chitale et al. Pediatrics (2022)
   highlight: 1
   news2:
+  year: 2022
 
 - title: "Duration of Exclusive Breastfeeding for Preterm or Low Birth Weight Infants: A Systematic Review and Meta-analysis "
   image: Pediatrics.jpeg
@@ -67,8 +84,9 @@
     display:  Yang et al. Pediatrics (2022)
   highlight: 1
   news2:
+  year: 2022
 
-- title: "Fast Feed Advancement for Preterm and Low Birth Weight Infants: A Systematic Review and Meta-analysis "
+- title: "Fast Feed Advancement for Preterm and Low Birth Weight Infants: A Systematic Review and Meta-analysis"
   image: Pediatrics.jpeg
   description:
   authors: 
@@ -77,3 +95,17 @@
     display:  Yang et al. Pediatrics (2022)
   highlight: 1
   news2:
+  year: 2022
+
+- title: "Clinical risk factors of adverse outcomes among women with COVID-19 in the pregnancy and postpartum period: a sequential, prospective meta-analysis"
+  image: Ajog.jpeg
+  description:
+  authors: 
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0002937822006809
+    display:  Smith et al. American Journal of Obstetrics and Gynecology
+  highlight: 1
+  news2:
+  year: 2023
+
+

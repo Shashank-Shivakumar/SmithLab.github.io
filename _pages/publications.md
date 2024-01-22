@@ -21,13 +21,13 @@ permalink: /publications/
 <div class="bx section-title-area">
 <h2 class="section-title">Featured</h2>
 </div>
+
+{% assign publications_by_year = site.data.publist | group_by: "year" %}
+{% for year_group in publications_by_year %}
+<h2>{{ year_group.name }}</h2>
 <div class="bx recent-updates-list">
-
-{% for publi in site.data.publist %}
-{% if publi.highlight == 1 %}
-
+{% for publi in year_group.items %}
 <div class="bx recent-bx">
-<!-- <a href="{{ publi.link.url }}"> -->
 <div class="media clickable-div" data-href="{{ publi.link.url }}">
 <img src="{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="pub-cover" width="225" height="225" alt="{{ publi.title }}"> 
 </div>
@@ -35,11 +35,12 @@ permalink: /publications/
 <h3 class="title">{{ publi.title }}</h3>
 <h5 class="sub-txt">{{ publi.link.display }}</h5>
 </div>
-<!-- </a> -->
 </div>
-{% endif %}
 {% endfor %}
 </div>
+{% endfor %}
+
+
 <div class="bx txt-a-c cta-wrapper">
 <a href="#" class="btn btn-primary">See Complete List</a>
 </div>
