@@ -21,7 +21,7 @@
   year: 2022
 
 - title: "Non-specific effects of BCG and DTP vaccination on infant mortality: An analysis of birth cohorts in Ghana and Tanzania"
-  image: Vaccine.jpeg
+  image: Vaccine.jpg
   description:
   authors:
   link:
@@ -43,7 +43,7 @@
   year: 2021
 
 - title: "Modifiers of the effect of maternal multiple micronutrient supplementation on stillbirth, birth outcomes, and infant mortality: a meta-analysis of individual patient data from 17 randomised trials in low-income and middle-income countries"
-  image: LANCET2017.png
+  image: LANCET2017.jpg
   description:
   authors:
   link:
@@ -96,16 +96,5 @@
   highlight: 1
   news2:
   year: 2022
-
-- title: "Clinical risk factors of adverse outcomes among women with COVID-19 in the pregnancy and postpartum period: a sequential, prospective meta-analysis"
-  image: Ajog.jpeg
-  description:
-  authors: 
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S0002937822006809
-    display:  Smith et al. American Journal of Obstetrics and Gynecology
-  highlight: 1
-  news2:
-  year: 2023
 
 
