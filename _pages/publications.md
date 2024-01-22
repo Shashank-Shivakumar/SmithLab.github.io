@@ -24,7 +24,9 @@ permalink: /publications/
 
 {% assign publications_by_year = site.data.publist | group_by: "year" %}
 {% for year_group in publications_by_year %}
-<h2 class="section-title" style="margin-top:30px">{{ year_group.name }}</h2>
+<div class="bx section-title-area">
+<h2 class="section-title">{{ year_group.name }}</h2>
+</div>
 <div class="bx recent-updates-list">
 {% for publi in year_group.items %}
 <div class="bx recent-bx">
